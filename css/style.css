@@ -1,0 +1,261 @@
+* { margin:0px; padding:0px;}
+
+body { background:#000;  font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;}
+
+.container {width:940px; height:100%;margin:auto;  overflow:auto; overflow-y:hidden; overflow-x:hidden;}
+
+#header { background:url(../images/bg.jpg); height:180px; }
+	
+				 
+#logo { margin-top:20px; 
+        margin-left:20px; 
+		float:left;}
+				 
+#menu { height:auto; 
+        float:right;
+		margin-top:20px;
+		padding: 20px;
+		}
+
+#menu li {float:left;
+	      list-style:none;
+		  width:110px;}
+		  
+#menu li a:hover {color:#497E04 !important;}
+		  
+#menu li a {display:block;
+	font:20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:1.2em;
+	color:#bbb;
+	text-transform:uppercase;
+	text-decoration:none;
+	text-align:center;
+	letter-spacing:-1px;
+	height:79px;
+	font-style:normal;
+	font-weight:700}
+	
+.nav1 { background:url(../images/menu_icon1.gif) no-repeat center bottom;}
+.nav1:hover { background:url(../images/menu_icon1_active.gif) no-repeat center bottom;}
+
+.nav2 { background:url(../images/menu_icon2.gif) no-repeat center bottom;}
+.nav2:hover { background:url(../images/menu_icon2_active.gif) no-repeat center bottom;}
+
+.nav3 { background:url(../images/menu_icon3.gif) no-repeat center bottom;}
+.nav3:hover { background:url(../images/menu_icon3_active.gif) no-repeat center bottom;}
+
+.nav4 { background:url(../images/menu_icon4.gif) no-repeat center bottom;}
+.nav4:hover { background:url(../images/menu_icon4_active.gif) no-repeat center bottom;}
+
+.nav5 { background:url(../images/image_gallery/icon_gallery.png) no-repeat center bottom;}
+.nav5:hover { background:url(../images/image_gallery/icon_gallery_hover.png) no-repeat center bottom;}
+
+#greenLine { background:url(../images/bg_top_img.jpg) center no-repeat #305D00; height:20px;}
+	  
+/********************************** END STYLE FOR HEADER ***************************/
+#slider { background:url(../images/bg_slider.gif); height:423px;}
+
+#slider_wrapper { width:940px; height:100%;
+				   margin:auto;
+				   }
+/********************************** END STYLE FOR SLIDER ***************************/
+
+#content { background:#fff; min-height:500px;}
+
+#content_wrapper { width:940px; min-height:500px; margin:auto;}
+
+#content_top { height:180px; padding:40px 0px 40px 0px; }
+.section { float:left; height:200px; width:190px;  margin-right:55px;}
+.section  p  {line-height:22px; font-style:italic; color:#696969; height:100px;}
+.section a { color:#60B000; display:block; margin-top:10px;}
+.last-section p {line-height:22px; font-style:italic; color:#696969; height:100px;}
+.last-section {float:right; color:#696969; height:200px; width:190px; }
+.last-section a {color:#60B000; display:block; margin-top:10px;}
+
+#content_btm { min-height:295px; margin-bottom:20px; } 
+#content_btm_left {height:260px; width:600px; float:left;}
+.greetings{
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:30px;
+    padding:0px 0px 20px 10px;
+    color: rgb(0, 0, 0);
+    letter-spacing: -1px;
+	border-bottom:1px solid #CCC;
+	margin-bottom:15px; }
+	
+#content_btm_left img {margin-left:10px; float:left; margin-right:15px;}
+#content_btm_left p { font-size:16px;; 
+					  line-height:25px;
+					  font-style:italic;
+					  text-align:justify; 
+					  color:#696969;} 
+#content_btm_right {  width:300px; height:270px; float:right; border:1px solid #ccc;}
+/**********************************************************************************/
+/********************************** END STYLE FOR CONTENT ***************************/
+/**********************************************************************************/
+
+/**********************************************************************************/
+/********************************** CSS FOR NEWS ***********************************/
+/**********************************************************************************/
+.newsitem {min-height:200px; width:100%; padding:20px 20px 20px 20px; overflow:auto;  }
+.date_circle {height:56px;  float:left; width:56px; background:url(../images/date_circle_bg.png); center no-repeat; color:#FFF; text-align:center; }
+.day { text-align:center; font-size:35px;font-weight:700; letter-spacing:-2px;}
+.month {text-align:center; font-size:18px; font-weight:400; display:block;  margin-top:-6px;}
+
+.news_title { width:800px; line-height:26px; min-height:40px; float:left; margin-top:15px; margin-left:15px; font-size:25px; font-weight:400; }
+.clear { clear:both;}
+.news_image { float:left; margin-top:15px; width: 100%;}
+.news_synopsis { float:left; margin-top:15px; margin-left:15px; width:700px; line-height:20px; 
+min-height:90px; color:#696969}
+.link_detail { float:left; margin-left:15px; color:#60B000; display:block; margin-top:10px;}
+.newsitem:hover { background-color:rgba(204,204,204,0.5);}
+/**********************************************************************************/
+/**********************************************************************************/
+
+/**********************************************************************************/
+/********************************** CSS FOR NEWS DETAILS ***********************************/
+/**********************************************************************************/
+.newsitemd {min-height:200px; width:100%; padding:20px 20px 20px 20px; overflow:auto;  }
+.date_detail {height:56px;  float:left; width:56px;  color:#FFF; text-align:center; }
+.newsitemd img { margin:0 15px 15px 0;}
+.news_desc { float:left; margin-top:15px; margin-left:15px; width:900px; line-height:20px;
+text-align:justify; } 
+.crt_date { font-size:15px; font-style:italic; color:#999; clear:both; padding-left:15px;}
+/**********************************************************************************/
+/**********************************************************************************/
+
+
+/**********************************************************************************/
+/********************************** CSS FOR PRODUCT *******************************/
+/**********************************************************************************/
+.product_item { min-height:280px; width:270px; margin:20px; float:left;}
+.number_icon { height:56px; width:56px; background:url(../images/dropcap1.gif); text-align:center; font-size:43px; float:left; margin-bottom:10px; color:#FFF; }
+.product_title { width:200px; float:left; margin-left:10px; line-height:56px; font-size:28px; text-shadow:3px 3px 2px #CCC; font-weight:lighter;}
+.product_desc { line-height:20px; min-height:60px; color:#696969; margin-top:10px; font-size:14px; font-style:italic;}
+.detail_product {float:left; color:#60B000; display:block; margin-top:10px;}
+/**********************************************************************************/
+/**********************************************************************************/
+/**********************************************************************************/
+
+#form_contact { min-height:300px; width:515px; float:left; margin-bottom:20px;}
+	#form_contact h2{font-size:38px;
+					 font-style: normal;
+					 font-weight:400;
+					 line-height:30px;
+					 margin-bottom:15px;
+					 padding:10px 0px 11px;
+					 color: #000;
+					 letter-spacing: -1px; 
+					 border-bottom:1px solid #E5E5E5; }
+					 
+	#form_contact input[type=text] {   width: 269px;
+							height: 18px;
+							border: 1px solid #E5E5E5;
+							background: none repeat scroll 0% 0% #FFF;
+							padding: 3px 5px;
+							color: #696968;
+							font: italic 14px "Trebuchet MS",Arial,Helvetica,sans-serif;
+							margin: 0px;}
+							
+	#form_contact textarea {overflow: auto;
+							width:480px;
+							height:335px;
+							border: 1px solid #E5E5E5;
+							background: none repeat scroll 0% 0% #FFF;
+							padding: 3px 5px;
+							color: #696968;
+							font: italic 14px "Trebuchet MS",Arial,Helvetica,sans-serif;
+							margin:5px 0 10px 0px;}
+							
+	#form_contact input[type=button]  { background:#60B000; 
+									    border:none; 
+										color:#FFF; 
+										font-weight:bold; 
+										font: 14px "Trebuchet MS",Arial,Helvetica,sans-serif; 
+										padding:5px 10px 5px 10px;}
+											
+	#form_contact input[type=reset]{ background:#60B000; 
+									    border:none; 
+										color:#FFF; 
+										font-weight:bold; 
+										font: 14px "Trebuchet MS",Arial,Helvetica,sans-serif; 
+										padding:5px 10px 5px 10px;}
+										
+	.effect:hover { background-color:#080808 !important; color:#FFF !important; cursor:pointer;}	
+				
+	#contact_right { float:right; height:550px; width:390px;}
+	
+	#contact_right h2 { font-size:38px;
+						font-style: normal;
+						font-weight: 400;
+						line-height: 30px;
+			
+						margin-bottom: 15px;
+						padding: 10px 0px 11px;
+						color: #000;
+						letter-spacing: -1px;
+						border-bottom: 1px solid #E5E5E5;}
+						
+	#contact_right p { line-height: 22px;
+					   font-style: italic;
+					   color: #696969;}
+	.message { resize:none;}
+	
+	
+				
+#footer { background:#000; height:30px; margin:auto; text-align:center;
+		  font-size:14px; color:#FFF; padding-top:20px;}
+
+
+/* Style Form Comment News */
+
+.comment_form { padding:10px; height:245px; border-top:1px dotted #CED8DF; background-color:#E5E5E5;}
+					.comment_form input[type=text],input[type=email]{ height:25px; width:200px; margin-bottom:15px; border-radius:3px; border:1px solid #CCC; padding:5px; }
+					.comment_form textarea { width:350px; margin-bottom:15px; padding:5px;}
+					.comment_form input[type=submit] {background-color:#4F9800; color:#FFF; border-radius:3px; border:1px solid white; padding:5px; box-shadow:1px 1px 1px #333333; }
+					.comment_form input[type=submit]:hover { background-color:#336001; cursor:pointer; box-shadow:0px 0px 0px #FFF;}
+					
+					.comment_wrap { padding:20px 10px 10px 20px; border-top:1px dotted #CED8DF; margin-top:25px;}
+                 	.comment_list { border-bottom:1px dotted #999999; min-height:20px; padding:10px; overflow:auto; width:740px;}
+					.user_photo {float:left; height:70px; width:70px;}
+					.user_photo img { width:100%;}
+					.box_desc { float:left; min-height:50px; width:600px; margin-left:10px; position:relative; padding-bottom:20px;}
+					.box_desc h2 { padding:5px; font-size:15px;}
+					.box_desc p {padding:5px; font-size:14px;}
+					.box_desc span { position:absolute; bottom:10px; right:20px}
+
+
+
+
+					/*STYLE LOGIN FORM*/
+
+.member_frm_lgn{
+	padding: 20px;
+}
+
+.member_frm_lgn input[type=text],[type=password]{
+	padding: 5px;
+}
+
+.welcome{
+	color: white;
+	padding: 10px;
+}
+
+.welcome a{
+	background-color: #4f9a00;
+	color: white;
+	text-decoration: none;
+}
+
+.welcome a:hover{
+	color: #eed552;
+}
+
+.form_regis{padding:30px 0 30px 0;}
+.form_regis label{border-bottom:1px solid #333; display: block; width: 180px; margin:15px 0 10px 0;}
+.form_regis input[type=text],[type=email],[type=password],textarea,[type=submit]{
+	padding: 5px
+}
