@@ -1,8 +1,6 @@
 # progress_business
-Another E-Commerce using php native 
-
-You can download but please put my credit on your web or code
-
+You can edit and download it for commercial use 
+But put this credit in your code or your web
 Created : 2017
 Project : Progress Business
 Created By : Harry Ermawan
