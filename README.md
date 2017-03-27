@@ -1,5 +1,5 @@
 # progress_business
-You can edit and download it for commercial use 
+You can edit and download it for study
 But put this credit in your code or your web <br>
 Created : 2017 <br>
 Project : Progress Business <br>
